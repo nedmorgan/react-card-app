@@ -1,5 +1,7 @@
 import styled, { keyframes } from 'styled-components'
-import { wobble } from 'react-animations'
+import { flash } from 'react-animations'
+
+export const flashAnimation = keyframes`${flash}`
 
 export const ImageContainer = styled.div`
 display: flex;
@@ -23,6 +25,7 @@ img {
 .heart {
   display: flex;
   width: 95vw;
+  animation: 5s ${flashAnimation} infinite;
 }
 
 .heartOne {
