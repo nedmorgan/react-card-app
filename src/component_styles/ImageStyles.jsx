@@ -4,10 +4,12 @@ import { wobble } from 'react-animations'
 export const ImageContainer = styled.div`
 display: flex;
 justify-content: center;
+margin-top:2vw;
 
 img {
   height: 90vw;
   width: 80vw;
+  border-radius: 5%;
 }
 
 .balloon-flex {

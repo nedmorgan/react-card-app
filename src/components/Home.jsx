@@ -9,8 +9,8 @@ export default class Home extends Component {
   render() {
     return (
       <HomeContainer>
-        <h1 className="home-title">Happy Anniversary</h1>
-        <h3>We hope to have an amazing anniversary and we love you very much!</h3>
+        <h1 className="home-title animated slideInDown">Happy Anniversary</h1>
+        <h3 className="animated slideInUp">We hope to have an amazing anniversary and we love you very much!</h3>
         <Image imageAlt={this.state.imageAlt} />
       </HomeContainer>
     )
